@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate, Link } from 'react-router-dom';
 import { SignInPage } from '../features/auth/pages/SignInPage';
 import { DashboardPage } from '../features/dashboard/pages/DashboardPage';
 import { ProtectedRoute } from '../routes/ProtectedRoute';
@@ -32,12 +32,12 @@ function NotFoundPage() {
         <p className="text-gray-600 mb-8">
           The page you're looking for doesn't exist.
         </p>
-        <a
-          href="/sign-in"
+        <Link
+          to="/sign-in"
           className="btn-primary"
         >
           Go to Sign In
-        </a>
+        </Link>
       </div>
     </div>
   );
