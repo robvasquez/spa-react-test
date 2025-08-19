@@ -11,8 +11,8 @@ A production-quality React 19 Single Page Application (SPA) built with TypeScrip
 
 ## 🚀 Live Demo
 
-- **Live Application**: [View Live App](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)
-- **Source Code**: [View Source](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+- **Live Application**: [View Live App](https://robvasquez.github.io/spa-react-test/)
+- **Source Code**: [View Source](https://github.com/robvasquez/spa-react-test)
 
 ## ✨ Features
 

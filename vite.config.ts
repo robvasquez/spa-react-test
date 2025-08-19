@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === 'serve' ? '/' : '/YOUR_REPO_NAME/', // Change YOUR_REPO_NAME to match your repository
+  base: command === 'serve' ? '/' : '/spa-react-test/', // Match your repository name
   server: {
     port: 3031,
     open: true,
