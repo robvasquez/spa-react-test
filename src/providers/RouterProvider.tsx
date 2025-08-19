@@ -12,5 +12,5 @@ export function RouterProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  return <BrowserRouter>{children}</BrowserRouter>;
+  return <BrowserRouter basename={import.meta.env.DEV ? undefined : '/spa-react-test'}>{children}</BrowserRouter>;
 }
